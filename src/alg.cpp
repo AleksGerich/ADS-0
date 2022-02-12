@@ -2,11 +2,15 @@
 
 int gcd(int a, int b) {
     int max, nod;
-    if(a>b) max = a;
-    else max = b;
+    if (a > b) {
+        max = a;
+    }
+    else {
+        max = b;
+    }
 
-    for (int i = 1; i<=max; i++){
-        if (a%i == 0 && b%i ==0) nod = i;
+    for (int i = 1; i <= max; i++) {
+        if (a%i == 0 && b%i == 0) nod = i;
     }
     return nod;
 }
