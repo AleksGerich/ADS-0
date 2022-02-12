@@ -4,8 +4,7 @@ int gcd(int a, int b) {
     int max, nod;
     if (a > b) {
         max = a;
-    }
-    else {
+    } else {
         max = b;
     }
 
